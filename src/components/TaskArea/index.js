@@ -82,18 +82,6 @@ const TaskArea = () => {
     }
 
 
-    /*setTimeout(()=>{
-        console.log('toDoTask')
-        console.log(toDoTask)
-        console.log('inProgressTask')
-        console.log(inProgressTask)
-        console.log('doneTask')
-        console.log(doneTask)
-        console.log('taskList')
-        console.log(taskList)
-    }, 5000)*/
-
-
     return(
         taskList.length > 0 ?
         <Area>
